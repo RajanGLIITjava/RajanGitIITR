@@ -10,15 +10,51 @@ public class Javacontinuebreakpractice {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("pls enter table number");
-		boolean isAnIntegerValue=sc.hasNextInt();
+		boolean isAnIntegerValue=sc.hasNextInt();// to avoid user to enter char val than number
 		if (isAnIntegerValue) {
 			int table =sc.nextInt();
-		for(int i=1;i<=10;i++){
-			System.out.println(table*i);
+	//	for(int i=1;i<=10;i++){
+	//		System.out.println(table*i);
+		//}
+//	}else{
+//		System.out.println("Enter number only");// to avoid user to enter char val than number
+		//}
+	//}
+//}
+	for(int i=1;i<=20;i++){
+		if(i==1) {
+			continue;
 		}
-	}else{
-		System.out.println("Enter number only");
+		if(i==3) {
+			continue;
 		}
-	}
+		if(i==5) {
+			continue;
+		}
+		if(i==7) {
+			continue;
+		}
+		if(i==9) {
+			continue;
+		}
+		if(i==11) {
+			continue;
+		}
+		if(i==13) {
+			continue;
+		}
+		if(i==15) {
+			continue;
+		}
+		if(i==17) {
+			continue;
+		}
+		if(i==19) {
+			continue;
+		}else {
+			System.out.println(i);
 }
-		
+}
+}
+}
+}
