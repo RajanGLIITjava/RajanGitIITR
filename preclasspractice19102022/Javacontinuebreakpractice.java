@@ -51,6 +51,9 @@ public class Javacontinuebreakpractice {
 		}
 		if(i==19) {
 			continue;
+		}
+		if(i>20) {
+			break;
 		}else {
 			System.out.println(i);
 }
