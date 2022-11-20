@@ -12,6 +12,7 @@ public class JavaObjectAndClassTest {
 		cus1.fullName="Rajan";
 		cus1.age=45;
 	System.out.println("Customer Name is" + " " +cus1.fullName);
-	System.out.println("Customer age is" +" " + cus1.age);
+	System.out.println(cus1.fullName +" your age is" +" " + cus1.age);
 }
 }
+
